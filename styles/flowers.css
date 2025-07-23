@@ -71,13 +71,32 @@ position: relative;
   display: grid;
   grid-template-columns: 50% 50% ;
  
-max-width: 1140px;
+ max-width: 1140px;
 align-items: flex-end;
-top: 221px;
- padding: 0px; */
+ top: 221px;
+ padding: 0px; 
 }
 .banner-flower{
  
   flex: none;
   margin: 0px 0px;
+}
+/* Our Plants-CART  1   */
+.our-plants{
+  text-align: center;
+  padding: 40px 20px;
+}
+.our-plants h2 {
+ font-size: 50px;
+ font-weight: 700;
+}
+.cart{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+
+}
+
+/* responsive media query iphone 15/16  */
+@media screen and (max-with) {
+  
 }
