@@ -83,18 +83,44 @@ align-items: flex-end;
 }
 /* Our Plants-CART  1   */
 .our-plants{
-  text-align: center;
+   max-width: 1440px;
+   margin: 0 auto;
+  align-items: center;
+  gap: 30px;
   padding: 40px 20px;
 }
 .our-plants h2 {
  font-size: 50px;
  font-weight: 700;
+ text-align: center;
+}
+.our-plants p{
+
 }
 .cart{
  display: grid;
  grid-template-columns: repeat(4, 1fr);
 
 }
+
+/* Flower & Plants Lover-CART-2 */
+
+.flower-plants-lover{
+  max-width: 1440px;
+ margin: 0 auto;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+ 
+}
+.flower-plants-lover div{
+flex: 1;
+}
+.flower-plants-lover img {
+  max-width: 100%;
+  /* border-radius: 10px; */
+}
+
 
 /* responsive media query iphone 15/16  */
 @media screen and (max-with) {
