@@ -7,6 +7,77 @@
   font-optical-sizing: auto;
   font-weight:700 ;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+ 
+} 
+/* Shared styles */
+.display-flex{
+  display: flex;
+
+}
+.text-light-gray{
+ color: #000000;
+}
+.body{
+background-color: #FFFFFF;
+position: relative;
+
+
+
+} 
+
+/* Heder styles */
+
+.header{
+ /* justify-content: space-between;
+ align-items: center;
+  padding: 10px 20px; */
+}
+/* navbar related styles */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+} 
+.nav-link{
+ 
+}
+.nav-item{
+  list-style: none;
+ margin-right: 30px;
+}
+.nav-link{
+  display: flex;
+  text-decoration: none;
+  /* width: 39px;
+  height: 24px */
+  
+}
+ .navbar,.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+ }      
+/* LOGO */
+.logo-text{
+  display: flex;
+  align-items: center;
+  gap: 5PX;
+}
+.logo-text img {
+  width: 40px;
+  height: auto;
+}
+/* banner styles */
+.banner{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+ 
+max-width: 1140px;
+align-items: flex-end;
+top: 221px;
+ padding: 0px; */
+}
+.banner-flower{
+ 
+  flex: none;
+  margin: 0px 0px;
 }
