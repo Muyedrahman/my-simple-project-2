@@ -184,6 +184,7 @@ margin-bottom: 1rem;
  }
 .div{
   display: grid;
+  
   grid-template-columns: 200px 200px 200px 200px 200px;
   grid-template-rows: 200px 200px;
   grid-template-areas: 
@@ -241,20 +242,49 @@ background-size: cover;
   background-size: cover;
   min-height: 50vh;
   background-repeat: no-repeat;
-  margin-left: 50px; 
+  /* margin-left: 50px;  */
 }  
 .btn-2{
   color: white;
   background-color: rgb(233, 90, 8);
   border: none;
 }
-
-
-
+/* footer-section  */
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   margin: 48px 0px; 
+   flex-wrap: wrap;
+   gap: 24px
+}
+.footer-content-box{
+   display: flex;
+    flex-direction: column;
+    gap: 12px;
+  min-width: 150px;
+ /* position: static;  */
+  /* width: 85px; 
+  height: 248px;   */
+ 
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+ gap: 32; 
+ padding: 0px; 
+}
+.footer-content ul li{
+  list-style: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+.footer-content-box ul li:hover {
+  color: #ff5a5f;
+}
 /* responsive media query iphone 15/16  */
 @media screen and (max-width:576px) {
 
-  
+
   .input-from {
     flex-direction: column;
     align-items: center;
