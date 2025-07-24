@@ -137,20 +137,34 @@ margin: 0;
 
 /* Flower & Plants Lover-CART-section-2 */
 
+
 .flower-plants-lover{
   max-width: 1440px;
  margin: 0 auto;
   align-items: center;
   gap: 30px;
   padding: 40px 20px;
+  display: flex;
+  position: relative;
  
 }
 .flower-plants-lover div{
 flex: 1;
 }
+
 .flower-plants-lover img {
   max-width: 100%;
   /* border-radius: 10px; */
+}
+.icon{
+ position: absolute;
+ top: -50px;
+ left: 40%;
+ transform: translateX(-50%) rotate(-45deg);
+  z-index: 1;
+}
+.icon img{
+  width: 300px;
 }
 
 /* Latest  Deals-section-3  */
