@@ -14,12 +14,25 @@
   display: flex;
 
 }
+.inter{
+  color: #00000080;
+/* color: rgba(0, 0, 0, 0.5); */
+font-family: Inter;
+/* font-size: 22px; */
+font-weight: 400;
+line-height: 27px;
+
+
+}
 .text-light-gray{
  color: #000000;
+ font-weight: 400;
+ line-height: 27px;
 }
-.body{
-background-color: #FFFFFF;
-position: relative;
+body{
+ 
+ /* background-color: ; */
+position: relative; 
 
 } 
 .text-color{
@@ -160,7 +173,7 @@ flex: 1;
  position: absolute;
  top: -50px;
  left: 40%;
- transform: translateX(-50%) rotate(-45deg);
+ transform: translateX(-50%) ;
   z-index: 1;
 }
 .icon img{
@@ -190,6 +203,10 @@ margin-bottom: 1rem;
    
   align-items: center;
 } */
+ .display-block a{
+  display: block;
+  margin-top: 10px;
+ }
  .plant-section-4{
   display: flex;
   justify-content: center;
@@ -214,6 +231,10 @@ margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
   background-position: center;
+}
+.item a {
+  display: block;
+  margin-top: 10px;
 }
 .item1{
   background-image: url(../assets/deal-ana.png);
