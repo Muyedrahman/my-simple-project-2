@@ -81,7 +81,7 @@ align-items: flex-end;
   flex: none;
   margin: 0px 0px;
 }
-/* Our Plants-CART  1   */
+/* Our Plants-Cart-section-1   */
 .our-plants{
    max-width: 1440px;
    margin: 0 auto;
@@ -100,10 +100,17 @@ align-items: flex-end;
 .cart{
  display: grid;
  grid-template-columns: repeat(4, 1fr);
+ gap: 10px;
 
 }
+.cart-continar img {
+  width: 100%;
+ margin: 0px 20px 30px 20px;
+  /* padding: 10px;
+  border-radius: 2px; */
+}
 
-/* Flower & Plants Lover-CART-2 */
+/* Flower & Plants Lover-CART-section-2 */
 
 .flower-plants-lover{
   max-width: 1440px;
@@ -121,8 +128,24 @@ flex: 1;
   /* border-radius: 10px; */
 }
 
+/* Latest  Deals-section-3  */
 
+.deals-section{
+ max-width: 1440px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 40px 20px;
+}
+.deals-section h2{
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+.deals-section p{
+  font-size: ;
+  color: ;
+
+}
 /* responsive media query iphone 15/16  */
-@media screen and (max-with) {
+@media screen and (max-with:576px) {
   
 }
