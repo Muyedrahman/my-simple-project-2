@@ -129,7 +129,7 @@ align-items: flex-end;
 .cart{
  display: grid;
  grid-template-columns: repeat(4, 1fr);  
- /* 1fr 1fr 1fr 1fr */
+ 
  gap: 20px;
 padding:20px;
 }
@@ -216,8 +216,8 @@ margin-bottom: 1rem;
  }
 .div{
   display: grid;
-  
-  grid-template-columns: 200px 200px 200px 200px 200px;
+ 
+  grid-template-columns: 200px 200px 200px 200px 200px; 
   grid-template-rows: 200px 200px;
   grid-template-areas: 
    'item1 item1 item2 item2 item2'  
@@ -226,13 +226,13 @@ margin-bottom: 1rem;
 
 }
 .item{
-  margin: 10px;
+ margin: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-position: center;
-}
+} 
 .item a {
   display: block;
   margin-top: 10px;
@@ -268,6 +268,10 @@ background-size: cover;
 }
 
 /*  section -5*/
+.input-style{
+  width:600px; 
+  height:40px;
+}
  .image-box-form{
   display: flex;
    padding: 40px 20px;
@@ -285,7 +289,16 @@ background-size: cover;
   background-color: rgb(233, 90, 8);
   border: none;
 }
-/* footer-section  */
+/* #button-style{
+
+} */
+.btn-2-style{
+  width:100px;
+   height: 45px; 
+   margin-left: -6px
+}
+/* ---------footer-section  */
+
 .footer-content{
   display: flex;
   justify-content: space-between;
@@ -324,7 +337,8 @@ align-items: flex-start;
 /* responsive---media----query ----iphone ----15/16  */
 
 
-@media screen and (max-width: 576px) {
+
+ @media screen and (max-width: 576px) {
 
 /* NAVBAR */
 .navbar {
@@ -404,22 +418,113 @@ margin-bottom: 10px;
     margin: 2px auto;
     max-width: 100%;
     height: auto;
+    }
  /* .btn {
   padding-bottom: 50px;  
   } */
+/* -----Flower & Plants Lover-CART-section-2------------ */
+.flower-plants-lover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 20px;
+}
 
-  /* INPUT */
-  .input-from {
+.icon{
+  display: none !important;
+}
+
+.flower-plants-lover img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+   width: 100%;
+  height: auto;
+}
+.flower-plants-lover .text-content {
+    padding: 0 15px;
+  }
+
+
+/*  -----------Plant-section-4 ---------- */
+ .div {
+    display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+  .item {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+/* .plant-section-4 .div .item{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+} */
+/* 
+.div{
+   
+  grid-template-columns: repeat(1, 1fr);
+  /* background-image: cover; */
+   /* background-size: cover; 
+  
+   grid-template-areas: 
+   'item1'
+    'item2'  
+   'item3'              
+  ;  
+}
+.item1, .item2, .item3 {
+    grid-area: unset;
+    width: 100%;
+    height: auto;
+   
+  } */ 
+   /* -Section-5 */
+   /* .input-style{
+    display: block;
+  width:auto; 
+  height:40px;
+} */
+/* --------------input---------- */
+.input-style{
+ 
+  width:50%; 
+  height: 40px;
+}
+.input-from {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .input-from input {
+    width: 30% !important;
+  }
+
+ #button-style{
+ width: 70% !important;
+ }
+ 
+ 
+
+.btn-2-style{
+  width: 20% !important;
+  margin-left: -3 !important;
+}
+/* ------Footer-------- */
+ .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-content-box {
     align-items: center;
   }
 
-  .input-from input[type="text"] {
-    width: 80%;
-    margin-bottom: 10px;
-  }
 
-  .btn-2 {
-    width: 50%;
-  }
-}
+} 
+
+
