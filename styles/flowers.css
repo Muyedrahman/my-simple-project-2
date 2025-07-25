@@ -238,16 +238,17 @@ margin-bottom: 1rem;
   margin-top: 10px;
 }
 .item1{
-  background-image: url(../assets/deal-ana.png);
+   background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.3)), url(../assets/deal-ana.png); 
   grid-area: item1;
 }
+/* rgba(0, 0, 0, 0.4), */
 .item2{
-background-image: url(../assets/deal-ana.png) ;
+background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.3)), url(../assets/deal-bloom.png) ;
 grid-area: item2;
 background-size: cover;
 }
 .item3{
-background-image: url(../assets/deal-zabo.png);
+background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.3)), url(../assets/deal-zabo.png);
 grid-area: item3;
 background-size: cover;
 }
